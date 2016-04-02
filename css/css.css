@@ -145,6 +145,111 @@ header{
 
 .part-2{
     height: 210px;
-    width: 640px;
+    width: 660px;
+    margin-top: 50px;
+}
+
+.what{
+    height: 100%;
+    width: 210px;
+    float: left;
+    margin-right: 10px;
+
+}
+
+.when{
+    height: 100%;
+    width: 210px;
+    margin-right: 10px;
+    float: left;
+}
+
+.how{
+    height: 100%;
+    width: 210px;
+    float: left;
+}
+
+.part-2 header{
+    font-size: 16px;
+    color: #418c59;
+    font-family: 微软雅黑;
+    text-decoration: underline;
+}
+
+.when header{
+    color: #d2994f;
+}
+
+.how header{
+    color: #cc7680;
+}
+
+.what p{
+    font-size: 12px;
+    color: #767777;
+    font-family: 宋体;
+    line-height: 16px;
+}
+
+.when p{
+    font-size: 12px;
+    color: #231815;
+    font-family: 微软雅黑;
+    line-height: 16px;
+    opacity:0.7;
+}
+
+.how p{
+    font-size: 13px;
+    color: #afb6b9;
+    font-family: 微软雅黑;
+    line-height: 16px;
+    margin: 0;
+}
+
+.c{
+    position: relative;
+    top: -15px;
+}
+
+.part-2 .how img{
+    height: 50px;
+    width: 50px;
+}
+
+/*第三部分*/
+.part-3 article header{
+    width: 415px;
+    height: 165px;
+}
+
+.part-3 .first-word{
+    font-size: 72px;
+    color: #f5e327;
+    font-family: 黑体;
+    font-weight:bold;
+    font-style: italic;
+}
+.second-word{
+    font-size: 42px;
+    color: #11456b;
+    font-family: 黑体;
+    font-weight: bold;
+    line-height: 16px;
+}
+.third-word{
+    font-size: 42px;
+    color: #11456b;
+    font-family: 黑体;
+    font-weight: bold;
+    line-height: 16px;
+}
+.forth-word{
+    font-size: 33px;
+    color: #11456b;
+    font-family: 黑体;
+    font-weight: bold;
+    border-bottom: 2px #11456b solid;
 
 }
